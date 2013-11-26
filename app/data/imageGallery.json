@@ -1,0 +1,27 @@
+[
+	{
+		"thumbnail": "http://upload.wikimedia.org/wikipedia/en/5/5b/Paramount_Pictures_logo_(2013).jpg",
+		"src": "images/image-gallery/img1.png",
+		"description": "Castle In The Night"
+	},
+	{
+		"thumbnail": "http://upload.wikimedia.org/wikipedia/en/5/5b/Paramount_Pictures_logo_(2013).jpg",
+		"src": "images/image-gallery/img2.jpg",
+		"description": "Castle In The Night"
+	},
+	{
+		"thumbnail": "http://upload.wikimedia.org/wikipedia/en/5/5b/Paramount_Pictures_logo_(2013).jpg",
+		"src": "images/image-gallery/img3.jpg",
+		"description": "Gigantic Sheep"
+	},
+	{
+		"thumbnail": "http://upload.wikimedia.org/wikipedia/en/5/5b/Paramount_Pictures_logo_(2013).jpg",
+		"src": "images/image-gallery/img4.jpg",
+		"description": "Funny Dog"
+	},
+	{
+		"thumbnail": "http://upload.wikimedia.org/wikipedia/en/5/5b/Paramount_Pictures_logo_(2013).jpg",
+		"src": "images/image-gallery/img5.jpg",
+		"description": "Detective Dog"
+	}
+]

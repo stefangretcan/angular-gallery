@@ -1,0 +1,28 @@
+<div class="hero-unit">
+  <h2>Session directives test</h2>
+</div>
+
+<login forgot-url="{{config.forgotUrl}}"
+       login-url="{{config.loginUrl}}"
+       remember-me="user.rememberMe"
+       email="user.email"
+       password="user.password"
+       success-callback="loginSuccessCallback"
+       error-callback="loginErrorCallback"></login>
+
+<register register-url="{{config.registerUrl}}"
+          terms-of-use-url="{{config.termsOfUseUrl}}"
+          privacy-policy-url="{{config.privacyPolicyUrl}}"
+          min-legal-age="{{config.minLegalAge}}"
+          first-name="user.firstName"
+          last-name="user.lastName"
+          email="user.email"
+          password="user.password"
+          country="user.country"
+          day-of-birth="user.dayOfBirth"
+          month-of-birth="user.monthOfBirth"
+          year-of-birth="user.yearOfBirth"
+          terms-and-conditions="user.termsAndConditions"
+          newsletter="user.newsletter"
+          success-callback="registerSuccessCallback"
+          error-callback="registerErrorCallback"></register>

@@ -1,0 +1,134 @@
+#image-gallery {
+	//border: 1px solid #888;
+	//height: 700px; // ie fix
+	//height: auto !important; // ie fix
+	//min-height: 700px;
+
+	#gallery-header {
+		margin-left: 45%;
+	}
+
+	.image-preview,
+	.image-list {
+		//height: 60%;
+		//height: auto;
+		// margin-left: 2%;
+		//width: 40%;
+		width: 100%;
+	}
+
+	.image-preview {
+		background-position: top center;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		-ms-behavior: url(backgroundsize.min.htc);
+		//border: 1px solid #ccc;
+
+		/* img {
+			//height: 100%;
+			width: 100%;
+		} */
+
+        -webkit-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        -o-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
+    }
+
+    .image-list {
+        overflow-y: scroll;
+        width: 53%;
+
+        .image-box {
+            //border: 5px solid #fff;
+            height: 40%;
+            margin: 2%;
+            min-width: 240px;
+            width: 40%;
+
+            &.selected {
+                border: 5px solid #222;
+            }
+
+            /* .image-thumbnail,
+            .image-description {
+                cursor: pointer;
+            } */
+
+            .image-thumbnail {
+                background: red;
+                border: none;
+                height: 90%;
+                width: 100%;
+            }
+
+            .image-description {
+                color: #455ac5;
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+
+    .navigation-button {
+        text-overflow: hidden;
+        color: transparent;
+        z-index: 10;
+    }
+
+    .navigation-button {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+    }
+
+    .navigation-button {
+        height: 74px;
+        margin-top: -37px;
+        top: 50%;
+        width: 74px;
+    }
+
+    #btn-prev {
+        background: url('../images/image-gallery/gallery-prev.png') no-repeat transparent;
+        left: 10px;
+    }
+
+    #btn-next {
+        background: url('../images/image-gallery/gallery-next.png') no-repeat transparent;
+        right: 10px;
+    }
+
+    .transparent {
+        opacity: 0;
+    }
+}
+
+
+.image-wrap {
+    width: 100%;
+    height: 100%;
+
+    &>div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        opacity: 0;
+
+		-webkit-transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-o-transition: opacity .5s ease-in-out;
+		transition: opacity .5s ease-in-out;
+
+        &.active {
+            opacity: 1;
+            z-index: 1;
+        }
+
+    }
+}

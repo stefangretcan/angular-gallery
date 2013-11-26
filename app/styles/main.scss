@@ -1,0 +1,44 @@
+@import "bootstrap-sass/lib/bootstrap";
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.display-none {
+    display: none;
+}
+
+html,
+body,
+div[ng-view],
+#image-gallery,
+.image-preview {
+    height: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    min-width: 800px;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+#btn-close {
+    background: url('../images/image-gallery/gallery-close.png') no-repeat transparent;
+    cursor: pointer;
+    display: block;
+    height: 57px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 57px;
+    z-index: 10;
+}
