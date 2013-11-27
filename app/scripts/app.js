@@ -9,9 +9,9 @@ angular
                 controller: 'ImageGalleryCtrl',
                 reloadOnSearch: false,
                 resolve: {
-                    images: function(DataService) {
+                    images: ['DataService', function(DataService) {
                         return DataService.getImages();
-                    }
+                    }]
                 }
             })
             .otherwise({
