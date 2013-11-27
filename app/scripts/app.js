@@ -1,6 +1,7 @@
 'use strict';
 
-angular.module('angularLoginApp', ['ngResource', 'ngRoute', 'angular-image-gallery'])
+angular
+    .module('angular-gallery-app', ['ngResource', 'ngRoute', 'angular-gallery'])
     .config(function($routeProvider) {
         $routeProvider
             .when('/gallery', {

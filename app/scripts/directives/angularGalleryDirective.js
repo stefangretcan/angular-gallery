@@ -1,15 +1,15 @@
 'use strict';
 
 angular
-    .module('angular-image-gallery', [])
+    .module('angular-gallery', [])
     .value('KEYCODES', {
         'leftArrow': 37,
         'rightArrow': 39
     })
-    .directive('imageGallery', function (KEYCODES) {
+    .directive('imageGallery', ['KEYCODES', function (KEYCODES) {
         return {
             templateUrl: 'views/_imageGallery.html',
-            restrict: 'E',
+            restrict: 'EA',
             scope: {
                 images: '=',
                 selectedIndex: '=',
@@ -20,6 +20,9 @@ angular
             controller: function($scope, $attrs, $location) {
                 $scope.minIndex = 0;
                 $scope.maxIndex = $scope.images.length - 1;
+
+                // Generate new id suffix based on current timestamp.
+                $scope.suffix = + new Date();
 
                 if ($scope.useArrows) {
                     $scope.useArrows = $scope.useArrows === 'false' ? false : true;
@@ -66,7 +69,4 @@ angular
                 $scope.useArrows && angular.element(window).on('keyup', windowKeyupHandler);
             }
         };
-    })
-    .run(function() {
-        document.createElement('image-gallery');
-    });
+    }]);

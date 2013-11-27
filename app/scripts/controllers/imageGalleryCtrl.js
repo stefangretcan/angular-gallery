@@ -1,8 +1,8 @@
 'use strict';
 
 var ImgCtrl = angular
-    .module('angularLoginApp')
-    .controller('ImageGalleryCtrl', function ($scope, $location, images, $log) {
+    .module('angular-gallery-app')
+    .controller('ImageGalleryCtrl', ['$scope', '$location', 'images', function ($scope, $location, images) {
         /*-------------------------------------------------------------------
          *
          * Properties
@@ -44,4 +44,4 @@ var ImgCtrl = angular
         });
 
         $scope.$watch('selectedIndex', updateSearch);
-    });
+    }]);

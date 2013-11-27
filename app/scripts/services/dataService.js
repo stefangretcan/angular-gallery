@@ -1,11 +1,11 @@
 'use strict';
 
 angular
-    .module('angularLoginApp')
+    .module('angular-gallery-app')
     .value('config', {
         'imagesUrl': 'data/imageGallery.json'
     })
-    .factory('DataService', function ($http, $q, config) {
+    .factory('DataService', ['$http', '$q', 'config', function ($http, $q, config) {
         return {
             imagesUrl: config.imagesUrl,
             getImages: function() {
@@ -23,4 +23,4 @@ angular
                 return defer.promise;
             }
         }
-    });
+    }]);

@@ -1,4 +1,4 @@
-<div id="image-gallery">
+<div id="image-gallery-{{suffix}}">
 	<div class="image-wrap">
         <div class="image-preview"
             data-index="{{$index}}"
@@ -10,6 +10,6 @@
         </div>
     </div>
 
-    <span id="btn-prev" ng-click="selectedIndex = selectedIndex == minIndex ? maxIndex : selectedIndex - 1" class="navigation-button"></span>
-    <span id="btn-next" ng-click="selectedIndex = selectedIndex == maxIndex ? minIndex : selectedIndex + 1" class="navigation-button"></span>
+    <span id="btn-prev-{{suffix}}" ng-click="selectedIndex = selectedIndex == minIndex ? maxIndex : selectedIndex - 1" class="navigation-button"></span>
+    <span id="btn-next-{{suffix}}" ng-click="selectedIndex = selectedIndex == maxIndex ? minIndex : selectedIndex + 1" class="navigation-button"></span>
 </div>
