@@ -15,7 +15,7 @@ angular
                 }
             })
             .otherwise({
-                redirectTo: '/',
+                redirectTo: '/gallery',
                 reloadOnSearch: false
             });
     });
