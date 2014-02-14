@@ -13,5 +13,6 @@
       "name": "link to deploy control panel"
     }
   ],
-  "autoDeploy": true
+  "autoDeploy": true,
+  "caca": "maca"
 }
