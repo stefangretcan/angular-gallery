@@ -11,6 +11,10 @@
     {
       "href": "http://localhost:9000/repo/angular-gallery",
       "name": "link to deploy control panel"
+    },
+    {
+      "href": "http://google.com",
+      "name": "google"
     }
   ],
   "autoDeploy": true
