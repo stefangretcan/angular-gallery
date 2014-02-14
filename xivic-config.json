@@ -13,5 +13,5 @@
       "name": "link to deploy control panel"
     }
   ],
-  "autoDeploy": false
+  "autoDeploy": true
 }
