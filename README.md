@@ -1,5 +1,4 @@
 angular-gallery
 ===============
 
-an angular directive for building a simple gallery
-trigger the mofo!
+an angular directive for building a simple gallery which triggers the mofo!
