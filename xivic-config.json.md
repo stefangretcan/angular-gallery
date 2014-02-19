@@ -1,3 +1,4 @@
+```
 {
   "links": [
     {
@@ -19,3 +20,4 @@
   "deploymentBranchName": "deploy-staging",
   "foo": "bar"
 }
+```
