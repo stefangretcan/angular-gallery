@@ -17,5 +17,5 @@
   "author": "gion",
   "from": "pd :D",
   "deploymentBranchName": "deploy-staging",
-  "foo": "bar"
+  "deployPath": "/var/www/public/"
 }
