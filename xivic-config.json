@@ -16,6 +16,6 @@
   "autoDeploy": true,
   "author": "gion",
   "from": "pd :D",
-  "deploymentBranchName": "deploy-staging",
-  "deployPath": "/var/www/public/"
+  "rootFolder": "/var/www/users/nicu/public_html/data/",
+  "deploymentBranchName": "deploy-staging"
 }
