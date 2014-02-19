@@ -15,5 +15,6 @@
   ],
   "autoDeploy": true,
   "author": "gion",
-  "from": "pd :D"
+  "from": "pd :D",
+  "deploymentBranchName": "deploy-staging"
 }
