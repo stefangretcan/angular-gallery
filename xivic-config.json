@@ -17,5 +17,6 @@
   "author": "gion",
   "from": "pd :D",
   "rootFolder": "/var/www/users/nicu/public_html/data/",
-  "deploymentBranchName": "deploy-staging"
+  "deploymentBranchName": "deploy-staging",
+  "test": "test"
 }
