@@ -28,13 +28,15 @@ body {
 }
 
 body {
-    background: #000;
+  //  background: #00dsnsjsj0;
+  background: blue;
 }
 
 #btn-close {
     background: url('../images/image-gallery/gallery-close.png') no-repeat transparent;
     cursor: pointer;
     display: block;
+    display: none;
     height: 57px;
     position: absolute;
     right: 10px;
