@@ -9790,7 +9790,7 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 })( window );
 
 /**
- * @license AngularJS v1.2.14-build.2283+sha.cbcfaa2
+ * @license AngularJS v1.2.14-build.2301+sha.4d7e1ce
  * (c) 2010-2014 Google, Inc. http://angularjs.org
  * License: MIT
  */
@@ -9860,7 +9860,7 @@ function minErr(module) {
       return match;
     });
 
-    message = message + '\nhttp://errors.angularjs.org/1.2.14-build.2283+sha.cbcfaa2/' +
+    message = message + '\nhttp://errors.angularjs.org/1.2.14-build.2301+sha.4d7e1ce/' +
       (module ? module + '/' : '') + code;
     for (i = 2; i < arguments.length; i++) {
       message = message + (i == 2 ? '?' : '&') + 'p' + (i-2) + '=' +
@@ -10316,7 +10316,7 @@ function isDefined(value){return typeof value !== 'undefined';}
  *
  * @description
  * Determines if a reference is an `Object`. Unlike `typeof` in JavaScript, `null`s are not
- * considered to be objects.
+ * considered to be objects. Note that JavaScript arrays are objects.
  *
  * @param {*} value Reference to check.
  * @returns {boolean} True if `value` is an `Object` but not `null`.
@@ -11670,7 +11670,7 @@ function setupModuleLoader(window) {
  * - `codeName` – `{string}` – Code name of the release, such as "jiggling-armfat".
  */
 var version = {
-  full: '1.2.14-build.2283+sha.cbcfaa2',    // all of these placeholder strings will be replaced by grunt's
+  full: '1.2.14-build.2301+sha.4d7e1ce',    // all of these placeholder strings will be replaced by grunt's
   major: 1,    // package task
   minor: 2,
   dot: 14,
@@ -28081,9 +28081,9 @@ forEach(
           $scope.list = [];
           $scope.text = 'hello';
           $scope.submit = function() {
-            if (this.text) {
-              this.list.push(this.text);
-              this.text = '';
+            if ($scope.text) {
+              $scope.list.push(this.text);
+              $scope.text = '';
             }
           };
         }
