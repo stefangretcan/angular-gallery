@@ -13,7 +13,7 @@
       "name": "link to deploy control panel"
     }
   ],
-  "autoDeploy": true,
+  "autoDeploy": false,
   "rootFolder": "/var/www/users/nicu/public_html/data/",
   "deploymentBranchName": "deploy-staging",
   "test": "test"
