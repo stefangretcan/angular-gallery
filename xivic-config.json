@@ -14,6 +14,6 @@
     }
   ],
   "autoDeploy": true,
-  "rootFolder": "/var/www/smartdeploy/public_html/data",
+  "rootFolder": "/var/www/test",
   "deploymentBranchName": "deploy-staging"
 }
