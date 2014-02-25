@@ -13,7 +13,7 @@
       "name": "link to deploy control panel"
     }
   ],
-  "autoDeploy": false,
+  "autoDeploy": true,
   "rootFolder": "/var/www/smartdeploy/public_html/data",
   "deploymentBranchName": "deploy-staging"
 }
