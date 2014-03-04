@@ -7,10 +7,6 @@
     {
       "href": "https://github.com/XivicSilver/angular-gallery",
       "name": "github page"
-    },
-    {
-      "href": "http://localhost:9000/repo/angular-gallery",
-      "name": "link to deploy control panel"
     }
   ],
   "autoDeploy": false,
