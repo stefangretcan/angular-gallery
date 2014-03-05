@@ -19,5 +19,9 @@
   ],
   "autoDeploy": true,
   "rootFolder": "/var/www/smartdeploy/public_html/data",
-  "deploymentBranchName": "deploy-staging"
+  "deploymentBranchName": "deploy-staging",
+  "codeship": {
+    "UUID": "dbba65c0-76e2-0131-9ed3-2ed7dbf8d003",
+    "url": "https://www.codeship.io/projects/13960"
+  }
 }
