@@ -11,6 +11,10 @@
     {
       "href": "https://smartdeploy.projects-directory.com",
       "name": "smart deploy link"
+    },
+    {
+      "href": "https://www.codeship.io/projects/13960/",
+      "name": "codeship project link"
     }
   ],
   "autoDeploy": true,
