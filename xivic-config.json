@@ -17,7 +17,7 @@
       "name": "codeship project link"
     }
   ],
-  "autoDeploy": true,
+  "autoDeploy": false,
   "rootFolder": "/var/www/smartdeploy/public_html/data",
   "deploymentBranchName": "deploy-staging",
   "codeship": {
