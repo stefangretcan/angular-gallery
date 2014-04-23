@@ -210,6 +210,7 @@ module.exports = function (grunt) {
     },
     imagemin: {
       dist: {
+        options: {cache:false},
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
@@ -220,6 +221,7 @@ module.exports = function (grunt) {
     },
     svgmin: {
       dist: {
+        options: {cache:false},
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
