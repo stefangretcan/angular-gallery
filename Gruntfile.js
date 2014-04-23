@@ -311,7 +311,7 @@ module.exports = function (grunt) {
         'compass:dist',
         'copy:styles',
         'imagemin',
-        'svgmin',
+        //'svgmin',
         'htmlmin'
       ]
     },
