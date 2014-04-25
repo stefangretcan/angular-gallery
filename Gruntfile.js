@@ -371,7 +371,7 @@ module.exports = function (grunt) {
     'connect:test',
     'karma'*/
   ]);
-
+ 
   grunt.registerTask('build', [
     'clean:dist',
     'useminPrepare',
