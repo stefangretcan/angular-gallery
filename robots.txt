@@ -2,5 +2,5 @@
 # disallow robots for staging
 
 User-agent: *
-Disallow: /
+Disallow: / 
  
